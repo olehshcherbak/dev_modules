@@ -1,0 +1,51 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-service-db
+  labels:
+    app: {{ .Values.app_db }}
+    env: {{ .Values.env }}
+spec:
+  selector:
+    project: {{ .Release.Name }}-project
+  ports:
+  - name: {{ .Values.listener_db }}
+    protocol: TCP
+    port: {{ .Values.service_port_db }}
+    targetPort: {{ .Values.container_port_db }}
+...
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-service-back
+  labels:
+    app: {{ .Values.app_back }}
+    env: {{ .Values.env }}
+spec:
+  selector:
+    project: {{ .Release.Name }}-project
+  ports:
+  - name: {{ .Values.listener_back }}
+    protocol: TCP
+    port: {{ .Values.service_port_back }}
+    targetPort: {{ .Values.container_port_back }}
+...
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-service-front
+  labels:
+    app: {{ .Values.app_front }}
+    env: {{ .Values.env }}
+spec:
+  selector:
+    project: {{ .Release.Name }}-project
+  ports:
+  - name: {{ .Values.listener_front }}
+    protocol: TCP
+    port: {{ .Values.service_port_front }}
+    targetPort: {{ .Values.container_port_front }}
+...

@@ -1,0 +1,4 @@
+apiVersion: v2
+name: m3-m5-chart
+description: helm chart for Modedule3
+version: 0.1.0

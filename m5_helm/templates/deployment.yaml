@@ -1,0 +1,82 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-deploy-db
+  labels:
+    app: {{ .Values.app_db }}
+    env: {{ .Values.env }}
+    owner: {{ .Values.owner }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      project: {{ .Release.Name }}-project
+  template:
+    metadata:
+      labels:
+        project: {{ .Release.Name }}-project
+    spec:
+      containers:
+      - name: {{ .Release.Name }}-db-container
+        image: {{ .Values.image_db }}
+        ports:
+        - containerPort: {{ .Values.container_port_db }}
+        env:
+          - name: POSTGRES_USER
+            value: {{ .Values.db_user }}
+          - name: POSTGRES_PASSWORD
+            value: {{ .Values.db_pass }}
+          - name: POSTGRES_DB
+            value: {{ .Values.db_name }}
+...
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-deployment-back
+  labels:
+    app: {{ .Values.app_back }}
+    env: {{ .Values.env }}
+    owner: {{ .Values.owner }}
+spec:
+  replicas: {{ .Values.replicas }}
+  selector:
+    matchLabels:
+      project: {{ .Release.Name }}-project
+  template:
+    metadata:
+      labels:
+        project: {{ .Release.Name }}-project
+    spec:
+      containers:
+      - name: {{ .Release.Name }}-backend-container
+        image: {{ .Values.image_back }}
+        ports:
+        - containerPort: {{ .Values.container_port_back }}
+...
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-deployment-front
+  labels:
+    app: {{ .Values.app_front }}
+    env: {{ .Values.env }}
+    owner: {{ .Values.owner }}
+spec:
+  replicas: {{ .Values.replicas }}
+  selector:
+    matchLabels:
+      project: {{ .Release.Name }}-project
+  template:
+    metadata:
+      labels:
+        project: {{ .Release.Name }}-project
+    spec:
+      containers:
+      - name: {{ .Release.Name }}-frontend-container
+        image: {{ .Values.image_front }}
+        ports:
+        - containerPort: {{ .Values.container_port_front }}
+...
