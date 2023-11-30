@@ -1,0 +1,502 @@
+{
+    "1": {
+        "Rank": "1",
+        "Distributive": "MX Linux",
+        "HPD": "2638"
+    },
+    "2": {
+        "Rank": "2",
+        "Distributive": "Mint",
+        "HPD": "2143"
+    },
+    "3": {
+        "Rank": "3",
+        "Distributive": "EndeavourOS",
+        "HPD": "1727"
+    },
+    "4": {
+        "Rank": "4",
+        "Distributive": "Debian",
+        "HPD": "1576"
+    },
+    "5": {
+        "Rank": "5",
+        "Distributive": "Manjaro",
+        "HPD": "1161"
+    },
+    "6": {
+        "Rank": "6",
+        "Distributive": "Ubuntu",
+        "HPD": "1031"
+    },
+    "7": {
+        "Rank": "7",
+        "Distributive": "Fedora",
+        "HPD": "905"
+    },
+    "8": {
+        "Rank": "8",
+        "Distributive": "Pop!_OS",
+        "HPD": "885"
+    },
+    "9": {
+        "Rank": "9",
+        "Distributive": "openSUSE",
+        "HPD": "776"
+    },
+    "10": {
+        "Rank": "10",
+        "Distributive": "Zorin",
+        "HPD": "659"
+    },
+    "11": {
+        "Rank": "11",
+        "Distributive": "Garuda",
+        "HPD": "584"
+    },
+    "12": {
+        "Rank": "12",
+        "Distributive": "Lite",
+        "HPD": "566"
+    },
+    "13": {
+        "Rank": "13",
+        "Distributive": "antiX",
+        "HPD": "516"
+    },
+    "14": {
+        "Rank": "14",
+        "Distributive": "KDE neon",
+        "HPD": "502"
+    },
+    "15": {
+        "Rank": "15",
+        "Distributive": "elementary",
+        "HPD": "491"
+    },
+    "16": {
+        "Rank": "16",
+        "Distributive": "Nobara",
+        "HPD": "489"
+    },
+    "17": {
+        "Rank": "17",
+        "Distributive": "Mageia",
+        "HPD": "457"
+    },
+    "18": {
+        "Rank": "18",
+        "Distributive": "NixOS",
+        "HPD": "396"
+    },
+    "19": {
+        "Rank": "19",
+        "Distributive": "Vanilla",
+        "HPD": "391"
+    },
+    "20": {
+        "Rank": "20",
+        "Distributive": "PCLinuxOS",
+        "HPD": "371"
+    },
+    "21": {
+        "Rank": "21",
+        "Distributive": "FreeBSD",
+        "HPD": "370"
+    },
+    "22": {
+        "Rank": "22",
+        "Distributive": "Kali",
+        "HPD": "369"
+    },
+    "23": {
+        "Rank": "23",
+        "Distributive": "SparkyLinux",
+        "HPD": "356"
+    },
+    "24": {
+        "Rank": "24",
+        "Distributive": "Puppy",
+        "HPD": "348"
+    },
+    "25": {
+        "Rank": "25",
+        "Distributive": "AlmaLinux",
+        "HPD": "342"
+    },
+    "26": {
+        "Rank": "26",
+        "Distributive": "ArcoLinux",
+        "HPD": "323"
+    },
+    "27": {
+        "Rank": "27",
+        "Distributive": "CachyOS",
+        "HPD": "322"
+    },
+    "28": {
+        "Rank": "28",
+        "Distributive": "Peppermint",
+        "HPD": "316"
+    },
+    "29": {
+        "Rank": "29",
+        "Distributive": "Q4OS",
+        "HPD": "313"
+    },
+    "30": {
+        "Rank": "30",
+        "Distributive": "EasyOS",
+        "HPD": "302"
+    },
+    "31": {
+        "Rank": "31",
+        "Distributive": "Devuan",
+        "HPD": "291"
+    },
+    "32": {
+        "Rank": "32",
+        "Distributive": "TUXEDO",
+        "HPD": "288"
+    },
+    "33": {
+        "Rank": "33",
+        "Distributive": "Alpine",
+        "HPD": "285"
+    },
+    "34": {
+        "Rank": "34",
+        "Distributive": "Solus",
+        "HPD": "284"
+    },
+    "35": {
+        "Rank": "35",
+        "Distributive": "blendOS",
+        "HPD": "282"
+    },
+    "36": {
+        "Rank": "36",
+        "Distributive": "Voyager",
+        "HPD": "259"
+    },
+    "37": {
+        "Rank": "37",
+        "Distributive": "Kubuntu",
+        "HPD": "258"
+    },
+    "38": {
+        "Rank": "38",
+        "Distributive": "Bodhi",
+        "HPD": "255"
+    },
+    "39": {
+        "Rank": "39",
+        "Distributive": "SmartOS",
+        "HPD": "242"
+    },
+    "40": {
+        "Rank": "40",
+        "Distributive": "Tails",
+        "HPD": "234"
+    },
+    "41": {
+        "Rank": "41",
+        "Distributive": "Slackware",
+        "HPD": "226"
+    },
+    "42": {
+        "Rank": "42",
+        "Distributive": "SpiralLinux",
+        "HPD": "222"
+    },
+    "43": {
+        "Rank": "43",
+        "Distributive": "Gnoppix",
+        "HPD": "215"
+    },
+    "44": {
+        "Rank": "44",
+        "Distributive": "XeroLinux",
+        "HPD": "207"
+    },
+    "45": {
+        "Rank": "45",
+        "Distributive": "Regata",
+        "HPD": "204"
+    },
+    "46": {
+        "Rank": "46",
+        "Distributive": "KaOS",
+        "HPD": "202"
+    },
+    "47": {
+        "Rank": "47",
+        "Distributive": "Rocky",
+        "HPD": "201"
+    },
+    "48": {
+        "Rank": "48",
+        "Distributive": "OpenMandriva",
+        "HPD": "200"
+    },
+    "49": {
+        "Rank": "49",
+        "Distributive": "PureOS",
+        "HPD": "198"
+    },
+    "50": {
+        "Rank": "50",
+        "Distributive": "Lubuntu",
+        "HPD": "197"
+    },
+    "51": {
+        "Rank": "51",
+        "Distributive": "Bluestar",
+        "HPD": "192"
+    },
+    "52": {
+        "Rank": "52",
+        "Distributive": "Clear",
+        "HPD": "185"
+    },
+    "53": {
+        "Rank": "53",
+        "Distributive": "CentOS",
+        "HPD": "181"
+    },
+    "54": {
+        "Rank": "54",
+        "Distributive": "Fatdog64",
+        "HPD": "178"
+    },
+    "55": {
+        "Rank": "55",
+        "Distributive": "Xubuntu",
+        "HPD": "176"
+    },
+    "56": {
+        "Rank": "56",
+        "Distributive": "Athena",
+        "HPD": "173"
+    },
+    "57": {
+        "Rank": "57",
+        "Distributive": "GhostBSD",
+        "HPD": "172"
+    },
+    "58": {
+        "Rank": "58",
+        "Distributive": "Parrot",
+        "HPD": "171"
+    },
+    "59": {
+        "Rank": "59",
+        "Distributive": "Neptune",
+        "HPD": "168"
+    },
+    "60": {
+        "Rank": "60",
+        "Distributive": "Qubes",
+        "HPD": "167"
+    },
+    "61": {
+        "Rank": "61",
+        "Distributive": "MakuluLinux",
+        "HPD": "166"
+    },
+    "62": {
+        "Rank": "62",
+        "Distributive": "Gentoo",
+        "HPD": "165"
+    },
+    "63": {
+        "Rank": "63",
+        "Distributive": "Archcraft",
+        "HPD": "164"
+    },
+    "64": {
+        "Rank": "64",
+        "Distributive": "Linuxfx",
+        "HPD": "164"
+    },
+    "65": {
+        "Rank": "65",
+        "Distributive": "Red Hat",
+        "HPD": "164"
+    },
+    "66": {
+        "Rank": "66",
+        "Distributive": "siduction",
+        "HPD": "161"
+    },
+    "67": {
+        "Rank": "67",
+        "Distributive": "Rhino",
+        "HPD": "160"
+    },
+    "68": {
+        "Rank": "68",
+        "Distributive": "TrueNAS",
+        "HPD": "160"
+    },
+    "69": {
+        "Rank": "69",
+        "Distributive": "Arch",
+        "HPD": "159"
+    },
+    "70": {
+        "Rank": "70",
+        "Distributive": "ReactOS",
+        "HPD": "157"
+    },
+    "71": {
+        "Rank": "71",
+        "Distributive": "Murena",
+        "HPD": "156"
+    },
+    "72": {
+        "Rank": "72",
+        "Distributive": "Ultramarine",
+        "HPD": "156"
+    },
+    "73": {
+        "Rank": "73",
+        "Distributive": "Proxmox",
+        "HPD": "150"
+    },
+    "74": {
+        "Rank": "74",
+        "Distributive": "Artix",
+        "HPD": "149"
+    },
+    "75": {
+        "Rank": "75",
+        "Distributive": "BigLinux",
+        "HPD": "147"
+    },
+    "76": {
+        "Rank": "76",
+        "Distributive": "ALT",
+        "HPD": "146"
+    },
+    "77": {
+        "Rank": "77",
+        "Distributive": "Absolute",
+        "HPD": "142"
+    },
+    "78": {
+        "Rank": "78",
+        "Distributive": "Void",
+        "HPD": "142"
+    },
+    "79": {
+        "Rank": "79",
+        "Distributive": "OpenBSD",
+        "HPD": "141"
+    },
+    "80": {
+        "Rank": "80",
+        "Distributive": "Emmabunt\u00fcs",
+        "HPD": "137"
+    },
+    "81": {
+        "Rank": "81",
+        "Distributive": "Oracle",
+        "HPD": "137"
+    },
+    "82": {
+        "Rank": "82",
+        "Distributive": "wattOS",
+        "HPD": "136"
+    },
+    "83": {
+        "Rank": "83",
+        "Distributive": "Mabox",
+        "HPD": "133"
+    },
+    "84": {
+        "Rank": "84",
+        "Distributive": "Slax",
+        "HPD": "133"
+    },
+    "85": {
+        "Rank": "85",
+        "Distributive": "Ubuntu MATE",
+        "HPD": "133"
+    },
+    "86": {
+        "Rank": "86",
+        "Distributive": "SysLinuxOS",
+        "HPD": "131"
+    },
+    "87": {
+        "Rank": "87",
+        "Distributive": "Archman",
+        "HPD": "129"
+    },
+    "88": {
+        "Rank": "88",
+        "Distributive": "4MLinux",
+        "HPD": "127"
+    },
+    "89": {
+        "Rank": "89",
+        "Distributive": "Br OS",
+        "HPD": "127"
+    },
+    "90": {
+        "Rank": "90",
+        "Distributive": "EuroLinux",
+        "HPD": "127"
+    },
+    "91": {
+        "Rank": "91",
+        "Distributive": "LXLE",
+        "HPD": "127"
+    },
+    "92": {
+        "Rank": "92",
+        "Distributive": "Nitrux",
+        "HPD": "127"
+    },
+    "93": {
+        "Rank": "93",
+        "Distributive": "Haiku",
+        "HPD": "126"
+    },
+    "94": {
+        "Rank": "94",
+        "Distributive": "Feren",
+        "HPD": "125"
+    },
+    "95": {
+        "Rank": "95",
+        "Distributive": "Tiny Core",
+        "HPD": "125"
+    },
+    "96": {
+        "Rank": "96",
+        "Distributive": "Ubuntu Studio",
+        "HPD": "125"
+    },
+    "97": {
+        "Rank": "97",
+        "Distributive": "Kodachi",
+        "HPD": "124"
+    },
+    "98": {
+        "Rank": "98",
+        "Distributive": "NuTyX",
+        "HPD": "124"
+    },
+    "99": {
+        "Rank": "99",
+        "Distributive": "RebornOS",
+        "HPD": "123"
+    },
+    "100": {
+        "Rank": "100",
+        "Distributive": "deepin",
+        "HPD": "119"
+    }
+}
